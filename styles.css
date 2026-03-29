@@ -273,6 +273,72 @@ h1 {
   cursor: not-allowed;
 }
 
+.app-links {
+  display: grid;
+  gap: 10px;
+}
+
+.live-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.live-link:hover {
+  color: var(--ink);
+}
+
+.legal-page {
+  position: relative;
+  z-index: 1;
+}
+
+.legal-nav {
+  padding-bottom: 24px;
+}
+
+.legal-shell {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 32px 0 72px;
+}
+
+.legal-meta {
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+.legal-lead {
+  max-width: 680px;
+}
+
+.legal-card {
+  margin-top: 28px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+  padding: 36px;
+}
+
+.legal-section + .legal-section {
+  margin-top: 28px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.legal-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.legal-section p {
+  color: var(--muted);
+}
+
+.legal-section a {
+  color: var(--accent-dark);
+}
+
 .about {
   background: linear-gradient(135deg, rgba(255, 123, 47, 0.08), rgba(255, 255, 255, 0));
   border-radius: 32px;
@@ -392,6 +458,10 @@ h1 {
 
   .about {
     padding: 56px 24px;
+  }
+
+  .legal-card {
+    padding: 28px;
   }
 
   .footer-links {

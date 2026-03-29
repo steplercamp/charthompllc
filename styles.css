@@ -331,12 +331,24 @@ h1 {
   margin-bottom: 10px;
 }
 
+.legal-section h3 {
+  font-size: 1rem;
+  margin: 18px 0 10px;
+}
+
 .legal-section p {
   color: var(--muted);
 }
 
 .legal-section a {
   color: var(--accent-dark);
+}
+
+.legal-list {
+  color: var(--muted);
+  display: grid;
+  gap: 10px;
+  margin-left: 20px;
 }
 
 .about {
